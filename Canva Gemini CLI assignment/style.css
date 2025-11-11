@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+    font-family: sans-serif; /* Using a generic sans-serif for now, can be updated later */
+    color: white;
+    background: linear-gradient(to bottom, #6a0dad, #007bff); /* Gradient from purple to blue */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Navbar */
+.navbar {
+    padding: 20px 0;
+}
+
+.navbar .logo {
+    font-size: 24px;
+    font-weight: bold;
+    font-style: italic; /* Canva logo has a slight italic feel */
+}
+
+.navbar .nav-links {
+    display: flex;
+    gap: 30px;
+}
+
+.navbar .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.navbar .auth-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.btn-signup {
+    background-color: #8a2be2; /* Purple */
+    color: white;
+}
+
+.btn-login {
+    background-color: white;
+    color: #6a0dad; /* Dark purple */
+}
+
+/* Hero Section */
+.hero-section {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 100px; /* Space for illustrations */
+    position: relative;
+    overflow: hidden; /* To contain absolute positioned illustrations */
+}
+
+.hero-section h1 {
+    font-size: 72px;
+    margin-bottom: 20px;
+    line-height: 1.1;
+}
+
+.hero-section .subtitle {
+    font-size: 20px;
+    margin-bottom: 40px;
+    line-height: 1.5;
+}
+
+.hero-section .cta-buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.btn-primary {
+    background-color: white;
+    color: #6a0dad; /* Dark purple */
+}
+
+.btn-secondary {
+    background-color: rgba(255, 255, 255, 0.2); /* Semi-transparent white */
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+/* Illustrations at the bottom */
+.illustration-bottom {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 100px; /* Adjust as needed */
+}
+
+.illustration-item {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.3); /* Placeholder color */
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-icon {
+    width: 50px;
+    height: 50px;
+    left: 20%;
+    bottom: 20px;
+    transform: rotate(-15deg);
+}
+
+.graduation-cap {
+    width: 80px;
+    height: 50px;
+    background-color: #8a2be2; /* Purple */
+    right: 15%;
+    bottom: 10px;
+    border-radius: 0;
+    clip-path: polygon(0% 100%, 50% 0%, 100% 100%, 80% 100%, 50% 50%, 20% 100%); /* Simple cap shape */
+    transform: rotate(10deg);
+}
