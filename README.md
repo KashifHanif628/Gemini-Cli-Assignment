@@ -29,15 +29,13 @@ The goal was to experiment with Gemini’s creative capabilities and design auto
 
 2. Project Structure: <img width="323" height="306" alt="image" src="https://github.com/user-attachments/assets/ee705d87-eb45-44d7-b2fa-4bf54eb817aa" />
 
-3. Type this command : Analyze the image canvas_ss.png in the Canva Hero page.
-   
-4. Then type: make same exactly Hero section of analyze picture.
+3. Type this command that is higlighted un the image: WhatsApp Image 2025-11-09 at 18 18 32_936922bf
 
-5. Now review the files that you have make exact.  
+4. Then this: WhatsApp Image 2025-11-09 at 18 19 01_c8cc3b4c
 
-6. Finally Gemini made up the Canva Hero Page
+5. Finally Gemini made up the Canva Hero Page: WhatsApp Image 2025-11-09 at 18 19 52_41a7841e
 
-7. After this /chat save the Chat!
+6. After this /chat save the Chat!
 
 # 🤩 Author
 
