@@ -23,7 +23,7 @@ The goal was to experiment with Gemini’s creative capabilities and design auto
 - **CSS**
 ---
 
-## 🚀 TRY IT NOW!!!
+## 🚀 STEPS TO FOLLOW !!!
 
 1. INSTALL GEMINI CLI: In, your cmd paste this: npm install -g @google/gemini-cli and Run gemini
 
